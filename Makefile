@@ -1,11 +1,11 @@
-cutaes:	main.o mainmenu.o Student.o Application.o studentmenu.o applicationUI.o adminmenu.o summarypending.o CourseTakenQueue.o CourseTaken.o CourseTaughtQueue.o CourseTaught.o WorkExperienceQueue.o WorkExperience.o
+akenQueue.o CourseTaken.o CourseTaughtQueue.o CourseTaught.o WorkExperienceQueue.o WorkExperience.o
 	g++ -o cutaes main.o mainmenu.o Student.o Application.o studentmenu.o applicationUI.o adminmenu.o summarypending.o CourseTakenQueue.o CourseTaken.o CourseTaughtQueue.o CourseTaught.o WorkExperienceQueue.o WorkExperience.o `pkg-config gtkmm-3.0 --cflags --libs`
 
 main.o:	main.cpp mainmenu.h
 	g++ -c main.cpp `pkg-config gtkmm-3.0 --cflags --libs`
 
 mainmenu.o:	mainmenu.cpp mainmenu.h
-	g++ -c mainmenu.cpp `pkg-config gtkmm-3.0 --cflags --libs`
+	ainmenu.cpp `pkg-config gtkmm-3.0 --cflags --libs`
 
 Application.o: Application.cpp Application.h
 	g++ -c Application.cpp
