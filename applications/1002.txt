@@ -1,0 +1,31 @@
+1002
+COMP2401
+pending
+christine
+Laurendeau
+claurend@cmail.carleton.ca
+hwatever
+100444555
+3
+10.00
+10.00
+Course Taken
+COMP1501
+Winter
+2010
+A
+Course Taken
+COMP1501
+Winter
+2010
+A
+Course Taken
+COMP2501
+Winter
+2011
+A+
+Course Taken
+COMP2501
+Winter
+2011
+A+
