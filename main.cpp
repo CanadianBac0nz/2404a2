@@ -1,19 +1,18 @@
+#include "definitions.h"
 
-#include <string>
+#ifdef DEBUG
 #include <iostream>
-using namespace std;
-#include "Student.h"
+#endif
 
-#include "mainmenu.h"
-#include <gtkmm.h>
+#include "Controller.h"
+using namespace std;
 
 int main (int argc, char *argv[])
 {
-  Gtk::Main kit(argc, argv);
-
-  MainMenu mainMenu;
-
-  Gtk::Main::run(mainMenu);
-  
+  #ifdef DEBUG
+  cout<<"Main Method::"<<endl;
+  #endif
+  Controller c;   
+c.buttonListener("sssss"); 
   return 0;
 }
