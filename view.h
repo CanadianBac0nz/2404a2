@@ -4,13 +4,12 @@
 #include <gtkmm.h>
 #include "Controller.h"
 
-class view
+class View
 {
 public:
-  view();
-  ~view();
+  View(Controller&);
+  ~View();
   launchWindow(Controller&);
-
 }
 
 #endif
